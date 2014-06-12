@@ -1,13 +1,13 @@
-# lineman-imagemin
+# lineman-svgmin
 
-Minify PNG and JPEG images, within your
+Minify SVG, within your
 [Lineman](http://linemanjs.com) application. This plugin uses the
-[grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) task.
+[grunt-svgmin](https://github.com/sindresorhus/grunt-svgmin) task.
 
 ## Installation
 
 ```bash
-$ npm install lineman-imagemin --save-dev
+$ npm install lineman-svgmin --save-dev
 ```
 
 ## License
