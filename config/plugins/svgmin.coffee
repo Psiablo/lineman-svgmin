@@ -3,15 +3,15 @@ module.exports = (lineman) ->
 
   files:
     svgmin:
-      cwd: 'generated/img'
-      dest: 'generated/img'
+      cwd: 'dist/img'
+      dest: 'dist/img'
       src: '{,*/}*.svg'
 
   config:
     loadNpmTasks: app.loadNpmTasks.concat('grunt-svgmin')
 
     prependTasks:
-      dist: app.prependTasks.dist.concat('svgmin')
+      dist: app.appendTasks.dist.concat('svgmin')
 
     svgmin:
       dist:

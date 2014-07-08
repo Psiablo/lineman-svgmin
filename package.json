@@ -8,7 +8,7 @@
     "grunt",
     "svgmin"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/psiablo/lineman-svgmin",
   "author": {
     "name": "Eric Taylor",
