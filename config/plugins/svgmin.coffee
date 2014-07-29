@@ -10,7 +10,7 @@ module.exports = (lineman) ->
   config:
     loadNpmTasks: app.loadNpmTasks.concat('grunt-svgmin')
 
-    prependTasks:
+    appendTasks:
       dist: app.appendTasks.dist.concat('svgmin')
 
     svgmin:
